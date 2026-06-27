@@ -1,87 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfólio de Nicolas, desenvolvedor web focado em soluções modernas e eficientes." />
-  <title>Portfólio de Nicolas</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="/Portifolio/img/favicon.ico" type="image/x-icon" />
-</head>
-<body>
-  <header>
-    <div class="container-header">
-      <img src="/Portilio/img/eu.jpeg" alt="Foto de perfil de Nicolas" class="avatar" />
-      <h1>Nicolas Souza</h1>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#skills">Habilidades</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section id="about">
-      <h2>Sobre Mim</h2>
-      <p>Olá! Eu sou Nicolas, desenvolvedor focado em criar soluções web modernas e eficientes. Tenho paixão por tecnologia e aprendizado contínuo.</p>
-      <a href="curriculo.pdf" download class="btn">Baixar Currículo</a>
-    </section>
-
-    <section id="skills">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Git</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projetos</h2>
-      <div class="projects-grid">
-        <article class="project">
-          <h3>Site Pessoal</h3>
-          <p>Um site simples para apresentar meu portfólio e currículo.</p>
-          <a href="#" aria-disabled="true" tabindex="-1">Ver Projeto</a>
-        </article>
-        <article class="project">
-          <h3>App ToDo</h3>
-          <p>Aplicativo para gerenciar tarefas diárias, feito com React e Node.js.</p>
-          <a href="#" aria-disabled="true" tabindex="-1">Ver Projeto</a>
-        </article>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contato</h2>
-      <address>
-        <p>Telefone: <a href="tel:+5551998058521">+55 51 99805-8521</a></p>
-        <p>Email: <a href="mailto:nicolasouzaxx@gmail.com">nicolasouzaxx@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/nicolas-souza-816781344" target="_blank" rel="noopener noreferrer">linkedin.com/in/nicolas-souza-816781344</a></p>
-      </address>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Nicolas - Todos os direitos reservados.</p>
-  </footer>
-
-  <script>
-    document.querySelectorAll('nav a').forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        const href = link.getAttribute('href');
-        document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicolas Souza | Dev Full Stack</title>
+    <meta name="description" content="Portfólio de Nicolas Souza, Desenvolvedor Full Stack." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
