@@ -9,8 +9,8 @@ export default function About() {
         <strong style={{ color: 'var(--text)', fontWeight: 500 }}>
           Análise e Desenvolvimento de Sistemas
         </strong>{' '}
-        e formado Técnico em Informática pelo{' '}
-        <strong style={{ color: 'var(--text)', fontWeight: 500 }}>IFC Sombrio</strong>.
+         pela Universidade do Extremo Sul Catarinense (UNESC), formado em Técnico de Informática para Internet pelo{' '}
+        <strong style={{ color: 'var(--text)', fontWeight: 500 }}>Instituto Federal Catarinense (IFC)</strong>.
         Trabalho com JavaScript de ponta a ponta com experiência em React, Expo, Node.js
         e diferentes bancos de dados. Acredito que bom software vai além de funcionar —
         precisa ser legível, fácil de manter e preparado pra crescer.

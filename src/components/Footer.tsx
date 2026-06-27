@@ -8,7 +8,8 @@ export default function Footer() {
       borderTop: '1px solid var(--border)',
       marginTop: '1rem',
     }}>
-      feito com React + TypeScript · hospedado na Vercel
+      <div>Desenvolvido com React e TypeScript | hospedado na Vercel</div>
+      <div style={{ marginTop: '4px' }}>Feito por Nicolas S.</div>
     </footer>
   )
 }

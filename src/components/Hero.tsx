@@ -18,14 +18,14 @@ export default function Hero() {
         marginBottom: '1.25rem',
       }}>
         <span style={{
-          width: '6px',
-          height: '6px',
+          width: '8px',
+          height: '8px',
           background: 'var(--accent)',
           borderRadius: '50%',
           animation: 'pulse 2s infinite',
           display: 'inline-block',
         }} />
-        disponível para oportunidades
+        Disponivel para oportunidades
       </div>
 
       <h1 style={{
@@ -46,7 +46,7 @@ export default function Hero() {
         maxWidth: '520px',
         marginBottom: '1.75rem',
       }}>
-        Construo aplicações web e mobile com JavaScript de ponta a ponta —
+        Construo aplicações web e mobile com JavaScript de ponta a ponta.
         React, Node.js e Expo — com foco em código limpo e experiência do usuário.
       </p>
 
@@ -68,7 +68,7 @@ export default function Hero() {
           onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--accent-hover)')}
           onMouseLeave={(e) => (e.currentTarget.style.background = 'var(--accent)')}
         >
-          ver projetos
+          Ver projetos
         </button>
         <button
           onClick={() => scrollTo('contato')}
@@ -87,7 +87,7 @@ export default function Hero() {
           onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--text)')}
           onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--muted)')}
         >
-          entrar em contato
+          Entrar em contato
         </button>
       </div>
     </div>

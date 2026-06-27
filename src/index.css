@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background: var(--bg);
+  background: radial-gradient(ellipse at 70%, #250505 0%, #0d0d0d 50%);
   color: var(--text);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 16px;

@@ -13,21 +13,22 @@ export default function Nav() {
       marginBottom: '3.5rem',
     }}>
       <div style={{ fontSize: '15px', fontWeight: 500 }}>
-        nicolas<span style={{ color: 'var(--accent)' }}>.dev</span>
+        Nicolas<span style={{ color: 'var(--accent)' }}>.Dev</span>
       </div>
       <div style={{ display: 'flex', gap: '1.5rem' }}>
-        {['sobre', 'skills', 'projetos', 'contato'].map((item) => (
+        {['Sobre', 'Skills', 'Projetos', 'Contato'].map((item) => (
           <button
             key={item}
             onClick={() => scrollTo(item)}
             style={{
               background: 'none',
               border: 'none',
-              fontSize: '13px',
+              fontSize: '15px',
               color: 'var(--muted)',
               cursor: 'pointer',
               transition: 'color 0.2s',
               fontFamily: 'inherit',
+              
             }}
             onMouseEnter={(e) => (e.currentTarget.style.color = 'var(--text)')}
             onMouseLeave={(e) => (e.currentTarget.style.color = 'var(--muted)')}

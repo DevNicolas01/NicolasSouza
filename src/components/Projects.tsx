@@ -14,7 +14,7 @@ const projects: Project[] = [
     name: 'QRHUNT',
     description:
       'App mobile para escanear QR Codes e adicionar insígnias a um inventário pessoal. Integração com Firebase para armazenamento seguro de dados e imagens.',
-    tags: ['Expo', 'Firebase', 'QR Scanner', 'JavaScript'],
+    tags: ['Expo','React', 'Firebase', 'QR Scanner', 'JavaScript'],
     url: 'https://github.com/DevNicolas01',
   },
   {
