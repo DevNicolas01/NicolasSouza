@@ -2,21 +2,6 @@
 
 Portfólio pessoal desenvolvido com React + TypeScript + Vite.
 
-## Como publicar na Vercel
-
-1. Suba o projeto no GitHub
-2. Acesse [vercel.com](https://vercel.com) e conecte sua conta GitHub
-3. Clique em "New Project" e importe o repositório
-4. Deixe as configurações padrão (Vercel detecta Vite automaticamente)
-5. Clique em "Deploy"
-
-## Personalizar
-
-- **Projetos** → edite o array `projects` em `src/components/Projects.tsx`
-- **Skills** → edite o array `skills` em `src/components/Skills.tsx`
-- **Contato** → edite o array `links` em `src/components/Contact.tsx`
-- **Textos** → edite `src/components/Hero.tsx` e `src/components/About.tsx`
-
 ## Estrutura
 
 ```
